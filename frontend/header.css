@@ -196,7 +196,7 @@ main{
   display: inline;
   position: relative;
   left: 30vmax;
-  top: -17vmax;
+  top: -22vmax;
   font-size: 1.5vmax;
 }
 .table2{
@@ -224,7 +224,7 @@ main{
 .upstox{
   position: relative;
   left: 68vmax;
-  top: -40vmax;
+  top: -45vmax;
   height: 16.67vmax;
 }
 .break{
