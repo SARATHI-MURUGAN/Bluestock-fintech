@@ -1,0 +1,353 @@
+/* General reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, sans-serif; */
+    font-family: "Poppins", serif;
+    font-style: normal;
+    overflow-x: hidden;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* Logo styles */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .grip{
+    display: none;
+  }
+  
+  .logo-image {
+    height: 3vmax;
+    margin-right: 10px;
+  }
+  .logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Navigation links */
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #888;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: #000;
+  }
+  
+  /* Actions section */
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .signin {
+    color: #888;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .signup {
+    padding: 5px 15px;
+    background-color: #0056ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .signup:hover {
+    background-color: #0044cc;
+  }
+  
+  /* Menu icon */
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .menu-icon span {
+    width: 20px;
+    height: 3px;
+    background-color: #000;
+  }
+
+  /* header name */
+.header1{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 3.5vmax;
+  margin-left: 4.4vmax;
+
+}
+.head1{
+  color: #a626f0;
+}
+.head2{
+  color:rgba(42, 180, 121,1) ;
+}
+  
+/* stock */
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 3vmax;
+}
+.details:nth-child(odd){
+  background-color:#dae4ff ;
+}
+.details:nth-child(even){
+  background-color:#ffedd2 ;
+}
+.details{
+  margin-top: 0;
+  margin-left: 4%;
+  margin-right: 4%;
+  border-radius: 18px;
+  height: 29.64vmax;
+  width: auto;
+  max-width: 1968px;
+  gap: 10px;
+  background-color: #dae4ff;
+}
+.up1{
+  position: relative;
+  padding-left: 3%;
+  padding-top: 2vmax;
+  padding-bottom: 0;
+  font-weight: 600;
+  font-size: 2.60vmax;
+}
+.up2{
+  height: 2vmax;
+}
+.review{
+  /* background-color: black; */
+  display: inline;
+  margin-top: 0;
+  font-size: 1.4vmax;
+  font-weight: 600;
+  padding-left: 3%;
+}
+.review img{
+  height:1.4vmax;
+}
+.Account{
+  display: inline;
+  font-size: 1.4vmax;
+  font-weight: 600;
+  padding-left: 4vmax;
+}
+.Account img{
+  height:1.5vmax;
+}
+.review1{
+  display:inline;
+  font-size: 1.4vmax;
+  font-weight: 600;
+  padding-left: 3%;
+}
+.Account1{
+  display: inline;
+  font-size: 1.4vmax;
+  font-weight: 600;
+  padding-left: 3vmax;
+}
+.open{
+  font-size: 1.6vmax;
+  font-weight: 500;
+  padding-left: 3%;
+}
+.details .button{
+  display: inline;
+  margin-left: 3%;
+  padding: 0.2vmax 0.6vmax;
+  background-color: white;
+  border-radius:0.3vmax;
+  cursor: pointer;
+  font-size: 1.2vmax;
+}
+.details .button2{
+ margin-left: 3vmax;
+}
+.table1{
+  display: inline;
+  position: relative;
+  left: 30vmax;
+  top: -17vmax;
+  font-size: 1.5vmax;
+}
+.table2{
+  display: inline;
+  position: relative;
+  left: 30vmax;
+  top: -22vmax;
+  font-size: 1.5vmax;
+}
+.chechbox{
+  height: 100px;
+}
+.data2{
+  padding-left: 6vmax;
+  padding-top: 0.8vmax;
+  padding-bottom: 2.4vmax;
+  font-size: 1.04vmax;
+  font-weight: 500;
+}
+.data1{
+  padding-top: 1vmax;
+  padding-bottom: 1.6vmax;
+  font-weight: 500;
+}
+.upstox{
+  position: relative;
+  left: 68vmax;
+  top: -40vmax;
+  height: 16.67vmax;
+}
+.break{
+  display: none;
+}
+.break1{
+  display: none;
+}
+@media screen and (max-width: 400px) {
+  .nav , .actions{
+    display: none;
+  }
+  .grip{
+    display: inline;
+  }
+  .logo-image{
+    height: 6vmax;
+  }
+  .details{
+    height: 531px;
+    width: auto;
+  }
+  .header1 , .head1 {
+    color: black;
+    padding-left: 8vmax;
+    font-size: 7vmax;
+  }
+  .head2{
+    color: black;
+  }
+  .up1{
+    margin-left: 17vmax;
+    font-size: 5vmax;
+  }
+  .up2{
+    height: 4vmax;
+  }
+  .upstox{
+    position: relative;
+    left: 3vmax;
+    top: -86vmax;
+    height: 14vmax;
+    border-radius: 5px;
+    background-color: #000;
+  }
+  .review{
+    font-size: 3vmax;
+    padding-left:12vmax;
+    margin-top: 10%;
+    font-weight: 500;
+  }
+  .review img{
+    height:4vmax;
+  }
+  .Account{
+    font-size: 3vmax;
+    font-weight: 500;
+    padding-left: 35vmax;
+  }
+  .Account img{
+    height:4vmax;
+  }
+  .review1{
+    font-size: 3vmax;
+    font-weight: 500;
+    padding-left: 12vmax;
+  }
+  .Account1{
+    font-size: 3vmax;
+    font-weight: 500;
+    padding-left: 33vmax;
+  }
+  .table1 , .d1{
+    display:inline;
+    position: relative;
+    top: -10vmax;
+    left: 2vmax;
+    gap: 5%;
+    font-size: 3vmax;
+  }
+  .open{
+    font-size: 4vmax;
+    font-weight: 400;
+    position: relative;
+    top: 12vmax;
+    left: 12vmax;
+  }
+  .break{
+    display: inline;
+  }
+  .break2{
+    display: block;
+  }
+  .details .button{
+    margin-left: 9%;
+    padding: 1vmax 15vmax;
+    background-color: white;
+    border-radius:0.3vmax;
+    cursor: pointer;
+    font-size: 4vmax;
+    width: 200px;
+    height: auto;
+  }
+  .button1{
+    position: relative;
+    top: 13vmax;
+    left: 7vmax;
+  }
+  .details .button2{
+  padding: 1vmax 13.5vmax;
+   position: relative;
+   top: 20vmax;
+   left: 7vmax;
+  }
+  .table2 , .d2 {
+    display: inline;
+    position: relative;
+    top: 30vmax;
+    left: 6vmax;
+  } 
+  .data2{
+    gap: 20%;
+    font-size:2.2vmax;
+  }
+  
+}
